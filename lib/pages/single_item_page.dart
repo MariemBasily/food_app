@@ -40,11 +40,11 @@ class SingleItemPage extends StatelessWidget {
                 padding: EdgeInsets.symmetric(vertical: 10),
                 child: Image.asset(
                   "images/bg.png",
-                  height: MediaQuery.of(context).size.height /1.8, 
+                  height: MediaQuery.of(context).size.height / 1.8,
                   fit: BoxFit.cover,
                 ),
               ),
-              SizedBox(height: 8), 
+              SizedBox(height: 8),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -127,7 +127,7 @@ class SingleItemPage extends StatelessWidget {
           ),
         ),
       ),
-      bottomNavigationBar: SingleItemNavBar(), 
+      bottomNavigationBar: SingleItemNavBar(),
     );
   }
 }
